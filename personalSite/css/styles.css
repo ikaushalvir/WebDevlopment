@@ -1,0 +1,22 @@
+
+body{
+  background-color: #EAF6F6;
+}
+hr{
+
+  border-style: dotted none none;
+
+
+
+  width:20%;
+  border-width: 5px;
+  border-color: grey;
+}
+h1{
+  font-family: "Gill Sans", sans-serif;
+  color: #66BFBF;
+}
+h3{
+  font-family: cursive;
+  color :#66BFBF;
+}
