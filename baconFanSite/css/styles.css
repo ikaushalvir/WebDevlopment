@@ -1,8 +1,14 @@
+
+/* tag selectors */
 h1{
   color:red;
   font-size: 200px;
 }
 
-img{
+/* class selectors */
+.bacon{
   background-color: red;
+}
+.broccoli{
+  background-color: green;
 }
