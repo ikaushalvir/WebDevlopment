@@ -4,6 +4,9 @@ h1{
   color:red;
   font-size: 200px;
 }
+img:hover{
+  background-color: gold;
+}
 
 /* class selectors */
 .bacon{
@@ -11,4 +14,8 @@ h1{
 }
 .broccoli{
   background-color: green;
+}
+/* id selectors */
+#heading{
+  color:blue;
 }
