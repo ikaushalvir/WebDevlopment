@@ -24,11 +24,17 @@ function createPost(post) {
     setTimeout(() => {
       posts.push(post);
       resolve();
-    },10000)
+    },2000)
 
   })
 
 }
 
-createPost( { title:'post three', body:'This is post three'} )
-.then(getPosts);
+async function init() {
+  await createPost({ title:'post three',
+  body:'This is post three'});
+  console.log("post created");
+  getPosts();
+}
+
+init();
